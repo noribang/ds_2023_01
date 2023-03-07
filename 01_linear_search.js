@@ -1,7 +1,9 @@
 // O(n) time complexity.
 // Need sorted array.
-function linearSearch() {
-    
+function linearSearch(arr, val) {
+    for (let i = 0; i < arr.length; i++) {
+        
+    }
 }
 
 
