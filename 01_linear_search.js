@@ -2,7 +2,10 @@
 // Need sorted array.
 function linearSearch(arr, val) {
     for (let i = 0; i < arr.length; i++) {
-        
+        // If element at i position equals val return i.
+        if (arr[i] === val) {
+            return i;
+        }
     }
 }
 
