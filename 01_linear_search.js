@@ -7,6 +7,8 @@ function linearSearch(arr, val) {
             return i;
         }
     }
+    // If val does not exist in arr return -1.
+    return -1;
 }
 
 
