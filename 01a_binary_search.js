@@ -1,7 +1,9 @@
 // Log(N) time complexity.
+// Collection must be sorted.
 function binarySearch(arr, val) {
-
+    // Extreme left value in array.
     let min = 0
+    // Extremme right value in array.
     let max = arr.length - 1
 
     while(min <= max) {
@@ -24,8 +26,9 @@ function binarySearch(arr, val) {
         } else {
             return middle;
         }
-
     }
+    // If val cannot be found in array return -1. 
+    return -1;
 }
 
 
