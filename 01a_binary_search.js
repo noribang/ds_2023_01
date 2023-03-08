@@ -10,10 +10,19 @@ function binarySearch(arr, val) {
         let middle = Math.floor((min + max) / 2)
         // Get the middle element of array.
         let currentElement = arr[middle]
-        // If value at middle element is less than value looking for 
+        // If value at middle element is less than val looking for 
         // increase middle by 1 and assign as min.
         if (arr[middle] < val) {
             min = middle + 1;
+        // If value at middle element is greater than val looking for
+        // decrease middle by 1 and assign to max
+        } else if (arr[middle] > val) {
+            max = middle - 1;
+        // If middle is neither less than nor greater than val 
+        // looking for, it must be the val we are looking for.
+        // Return middle; 
+        } else {
+            return middle;
         }
 
     }
