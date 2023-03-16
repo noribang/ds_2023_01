@@ -8,6 +8,10 @@
 // array and max position in array.
 
 function binarySearch(arr, val) {
+    // Initial Min position.
+    let min = 0
+    // Initial Max position.
+    let max = arr.length - 1
 
 }
 
