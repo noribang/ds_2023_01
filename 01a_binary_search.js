@@ -8,8 +8,12 @@ function binarySearch(arr, val) {
     // Iterate through array.
     // Use middle as mid position in subset of array.
     // Check if middle is > or < than value looking for. 
-    while () {
-        
+    while (min <= max) {
+        // Get middle position in subset of array.
+        let middle = Math.floor((min + max) / 2)
+        // Get value of middle posiiton in array.
+        let currentElement = arr[middle]
+
     }
 
 
