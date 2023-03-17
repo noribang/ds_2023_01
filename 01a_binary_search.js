@@ -13,8 +13,24 @@ function binarySearch(arr, val) {
         let middle = Math.floor((min + max) / 2)
         // Get value of middle posiiton in array.
         let currentElement = arr[middle]
-
+        // If value at middle position < value looking for
+        // make min +1 of current middle (move new min to right of middle).
+        if (currentElement < val) {
+            min =  middle + 1;
+        }
+        // If value at middle position > value looking for 
+        // make max middle -1 (move new max to left of middle).
+        else if (currentElement > val) {
+            max = middle - 1
+        } 
+        // If middle is neither < or > value looking for 
+        // it must be the value looking for.
+        // Return middle position.
+        else {
+            return middle;
+        }
     }
-
-
+    // Default:
+    // If value not found in array return -1.
+    return -1;
 }
