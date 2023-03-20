@@ -12,8 +12,8 @@ function linearSearch(arr, val) {
             return i;
         }
     }
-
+    // Default. Return -1 if val is not found.
+    return -1;
 }
-
 
 linearSearch([1,2,3,5,6,8,9,12,15,16,29], 2)
