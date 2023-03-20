@@ -1,8 +1,12 @@
 // O(n) linear time complexity.
 // Requires sorted array.
 
-
+// Find a value in an array.
 function linearSearch(arr, val) {
+    // Iterate through a collection of data.
+    for (let i = 0; i < arr.length; i++) {
+
+    }
 
 }
 
