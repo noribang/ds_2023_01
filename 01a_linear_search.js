@@ -5,7 +5,8 @@
 function linearSearch(arr, val) {
     // Iterate through a collection of data.
     for (let i = 0; i < arr.length; i++) {
-
+        let currentValue = arr[i]
+        
     }
 
 }
