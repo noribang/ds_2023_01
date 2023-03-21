@@ -1,7 +1,7 @@
 // O(log n) time complexity.
 // Sorted collection needed.
 
-function binarySearch() {
+function binarySearch(arr, val) {
     
 }
 
