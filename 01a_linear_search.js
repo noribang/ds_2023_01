@@ -13,7 +13,9 @@ function linearSearch(arr, val) {
             return i
         }
     }
-    
+    // If val not found in collection
+    // return -1. 
+    return -1
 }
 
 linearSearch([1,2,3,5,6,8,9,12,15,16,29], 2)
