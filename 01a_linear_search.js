@@ -3,6 +3,15 @@
 
 // Search for val in collection.
 function linearSearch(arr, val) {
+    // Iterate through collection.
+    for (let i = 0; i < arr.length; i++) {
+
+    }
+    
+    // Check if value at current position 
+    // in collection equals val.
+    // Return current position if equals val.
+
 
 }
 
