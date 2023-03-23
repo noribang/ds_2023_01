@@ -4,8 +4,21 @@
 // Compare two arrays.
 // Must have same frequency of values in different order.
 
-function same() {
+function same(arr1, arr2) {
+    // Check if both arrays are of eqaul length.
+    // Short circuit if not equal.
+    if (arr1.length !== arr2.length) {
+        return false;
+    } 
+    // Loop thru arr1
+    for (let i = 0; i < arr1.length; i++) {
+        let arr1Val = arr1[i]
+        // Check if arr1Val exists in arr2.
+        for () {
+            
+        } 
 
+    }
 
 }
 
