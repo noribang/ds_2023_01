@@ -4,3 +4,7 @@
 // Compare two arrays.
 // Must have same frequency of values in different order.
 
+function same() {
+
+
+}
