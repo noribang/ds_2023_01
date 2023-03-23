@@ -14,8 +14,11 @@ function same(arr1, arr2) {
     for (let i = 0; i < arr1.length; i++) {
         let arr1Val = arr1[i]
         // Check if arr1Val exists in arr2.
-        for () {
-            
+        // If so remove from arr2 element from j position.
+        for (let j = 0; j < arr2.length; j++) {
+            if (arr2[j] === arr1Val) {
+                arr2.splice(j, 1)
+            }
         } 
 
     }
