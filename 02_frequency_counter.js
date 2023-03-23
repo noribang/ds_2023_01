@@ -20,9 +20,15 @@ function same(arr1, arr2) {
                 arr2.splice(j, 1)
             }
         } 
-
     }
-
+    // If arr2 is not length 0 then both arrays did not have same values.
+    // Therefore, return false.
+    if (arr2.length !== 0) {
+        return false;
+    }
+    // Otherwise:
+    // If arr2 is length 0 then both arrays had same values. 
+    return true;
 }
 
 test1 = [1,2,3,4,8]
