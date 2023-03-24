@@ -19,10 +19,19 @@ function same(arr1, arr2) {
                 arr2.splice(j, 1)
             }
         }
-
-
     }
-
+    // If after looping through both arrays
+    // arr2 should be empty. Meaning arr2.length equal 0.
+    // If arr2.length is not equal 0 then 
+    // both arrays do not have the same values and frequencies.
+    // Return false.
+    if (arr2.length !== 0 ) {
+        return false;
+    }
+    // Default:
+    // Return true. arr2.length equals 0.
+    // Both arrays have same values and frequencies of values.
+    return true;
 }
 
 test1 = [1,2,3,4,8]
