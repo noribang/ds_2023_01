@@ -11,6 +11,13 @@
 // Assign each value in array to variable arr1Val.
 // Nested loop thru arr2.
 // Check if each value in arr2 is equal to arr1.
+// If arr1Val equals arr2[j] remove that value position from arr2.
+
+// At end of nested loop check if arr2 is length 0.
+// If arr2 length does not equal 0 return false.
+function same(arr1, arr2) {
+
+} 
 
 
 
