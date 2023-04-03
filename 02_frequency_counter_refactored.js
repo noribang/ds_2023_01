@@ -6,6 +6,16 @@ function same(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false
     }
+    // Create two objects.
+    let frequencyCounter1 = {}
+    let frequencyCounter2 = {}
+    // arr1 frequency of values.
+    for () {
+        
+    }
+
+
+
 }
 
 
