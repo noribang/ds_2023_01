@@ -47,8 +47,6 @@ function same(arr1, arr2) {
     return true;
 } 
 
-
-
 test1 = [1,2,3,4,8]
 // test2 = [9,25,16,4,1]
 test2 = [8,3,2,1,4]
