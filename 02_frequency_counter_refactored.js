@@ -30,8 +30,8 @@ function same(arr1, arr2) {
         }
 
     }
-
-
+    // Return true if all tests pass.
+    return true
 }
 
 
