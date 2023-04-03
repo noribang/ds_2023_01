@@ -12,9 +12,13 @@ function same(arr1, arr2) {
     // arr1 frequency of values.
     for (let val of arr1) {
         // Each value of arr1 will be key of object.
-        frequencyCounter1[val] = (frequencyCounter[val] || 0) + 1
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
     }
-
+    // arr2 frequency of values.
+    for (let val of arr2) {
+        frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
+    }
+    
 
 
 }
