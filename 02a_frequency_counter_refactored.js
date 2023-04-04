@@ -9,7 +9,8 @@ function same(arr1, arr2) {
     }
     // Initialize two variables as empty objects.
     // These objects will store values and their frequencies.
-     
+    let frequencyCounter1 = {}
+    let frequencyCounter2 = {}
 
 
 }
