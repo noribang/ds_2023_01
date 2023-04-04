@@ -2,8 +2,16 @@
 // Compare two arrays for same values and same frequency of values.
 
 function same(arr1, arr2) {
+    // Check if both arrays are not equal lengths.
+    // If not equal lengths return false.
+    if (arr1.length !== arr2.length) {
+        return false
+    }
+    // Initialize two variables as empty objects.
+    // These objects will store values and their frequencies.
+     
 
-    
+
 }
 
 
