@@ -11,7 +11,14 @@ function same(arr1, arr2) {
     // These objects will store values and their frequencies.
     let frequencyCounter1 = {}
     let frequencyCounter2 = {}
-
+    // Store values and their frequencies of arr1 in object.
+    for (let val of arr1) {
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
+    }
+    // Store values and their frequencies of arr2 in object.
+    for (let val of arr2) {
+        frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
+    }
 
 }
 
