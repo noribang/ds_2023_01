@@ -19,7 +19,21 @@ function same(arr1, arr2) {
     for (let val of arr2) {
         frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
     }
-
+    // Test for key**2 and key and their corresponding values 
+    // in both objects.
+    for (let key in frequencyCounter1) {
+        // Test if key from 1st object is key**2 in 2nd object.
+        if (!(key**2 in frequencyCounter2)) {
+            return false
+        }
+        // Test if values are not equal for key**2 in 2nd object
+        // as values for key in 1st object.
+        if (frequencyCounter2[key**2] !== frequencyCounter1[key]) {
+            return false
+        }
+    }
+    // Return true if all tests pass.
+    return true
 }
 
 
