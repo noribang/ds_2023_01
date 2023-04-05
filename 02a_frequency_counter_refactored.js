@@ -7,10 +7,10 @@ function same(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false
     }
-
     // Create two empty objects to hold 
     // values and their frequencies from two arrays.
-
+    let frequencyCounter1 = {}
+    let frequencyCounter2 = {}
 
 }
 
