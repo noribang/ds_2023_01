@@ -11,6 +11,11 @@ function same(arr1, arr2) {
     // values and their frequencies from two arrays.
     let frequencyCounter1 = {}
     let frequencyCounter2 = {}
+    // Populate elements and their frequencies from 
+    // arr1 into frequencyCounter object. 
+    for (let val of arr1) {
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
+    }
 
 }
 
