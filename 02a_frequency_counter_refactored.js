@@ -4,7 +4,9 @@
 function same(arr1, arr2) {
     // Test if array lengths are unequal.
     // Return false if true.
-
+    if (arr1.length !== arr2.length) {
+        return false
+    }
 
     // Create two empty objects to hold 
     // values and their frequencies from two arrays.
