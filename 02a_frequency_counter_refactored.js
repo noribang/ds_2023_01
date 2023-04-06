@@ -32,10 +32,9 @@ function same(arr1, arr2) {
         if (frequencyCounter2[key**2] !== frequencyCounter1[key]) {
             return false
         }
-
     }
-
-
+    // Return true if all test pass (i.e. false is never returned)
+    return true
 }
 
 
