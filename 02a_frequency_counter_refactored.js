@@ -21,6 +21,16 @@ function same(arr1, arr2) {
     for (let val of arr2) {
         frequencyCounter2[val] = (frequencyCounter[val] || 0) + 1
     }
+    // Test if value (key) is in both objects.
+    // Test if frequencies of values (values) are unequal in both ojects.
+    for (let key in frequencyCounter1) {
+        // Return false if property is not in object.
+        if (!(key**2 in frequencyCounter2)) {
+            return false
+        }
+
+        
+    }
 
 
 }
