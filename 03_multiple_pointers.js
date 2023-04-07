@@ -16,10 +16,10 @@ function sumZero(arr) {
             if (arr[i] + arr[j] === 0) {
                 return [arr[i], arr[j]]
             }
-
         }
     }
-
+    // Return false two pointer never sum to zero.
+    return false
 }
 
 sumZero([-4,-3,-2,-1,0,1,2,5])
